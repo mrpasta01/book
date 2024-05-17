@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КНИГИ</title>
+    <script src="vendor/jquery-3.7.1.min.js"></script>
+    <script src="js/script3.js"></script>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <div id="wrapper">
+<!--верхняя часть-->
+        <div id="header">
+
+		<img src="fons/logo1.png";>
+
+        </div>
+        <div id="container">
+<!--Левая часть-->
+            <div id="left">
+				<div id="menu">
+			<a href="" title="Главная" id="GS">Главная</a>
+			<a href="index.html" title="Перейти на страницу с множеством книг">Книги</a>
+			<a href="index1.html" title="Перейти на страницу с одной книгой">Книги по штуке</a>
+			<a href="index2.html" class="active" title="Перейти на страницу с выбором кол-ва книг">нужное кол-во</a>
+			<a href="index3.html" title="Перейти на страницу с выбаром книг по номерам">Книги по номеру</a>
+</div>
+<hr>
+        <input name="count" placeholder="Кол-во желаемых книг" type="text"><br>
+        <button onclick="load_books()">Отправить</button>
+            </div>
+<!--Центральная часть-->
+            <div id="content">
+                <div id="books">
+
+                </div>
+    </div>
+	</div>
+<!--Нижняя часть-->
+    <div id="footer">
+        <p>ИП-23 Енаки Степан, если что-то работает не так: enakestepan@gmail.com</p>
+    </div>
+</body>
+</html>
